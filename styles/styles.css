@@ -1,4 +1,9 @@
 body {
     text-align: center;
     background-color: #f0e8c5;
-  }
+}
+
+.map {
+  width: 100%;
+  height: calc(100vh - 150px);
+}
