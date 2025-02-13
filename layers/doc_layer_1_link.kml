@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled layer</name>
+    <NetworkLink>
+      <name>Elin Pelin tasks</name>
+      <Link>
+        <href><![CDATA[https://www.google.com/maps/d/kml?mid=1AjA3mhwyyPpMLSMKxLMUMHQ7pk4f07E&lid=3-LpPx3J1xw]]></href>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>
