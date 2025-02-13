@@ -17,7 +17,12 @@ function initMap() {
     // });
 
     const kmlLayer = new google.maps.KmlLayer({
-        url: "https://raw.githubusercontent.com/ElliStoyanova/LinearSiteMap/refs/heads/main/doc.kml",  // Replace with your actual KML file URL
+        url: "https://raw.githubusercontent.com/ElliStoyanova/LinearSiteMap/refs/heads/main/layers/doc.kml",  // Replace with your actual KML file URL
+        map: map
+    });
+    
+    const kmlLayerWithTasks = new google.maps.KmlLayer({
+        url: "https://raw.githubusercontent.com/ElliStoyanova/LinearSiteMap/refs/heads/main/layers/doc_layer_1_link.kml",  // Replace with your actual KML file URL
         map: map
     });
     
